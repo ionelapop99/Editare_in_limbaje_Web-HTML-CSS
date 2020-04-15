@@ -1,0 +1,139 @@
+body {
+    background-image:linear-gradient(orange,pink,MediumOrchid ,DarkTurquoise ,DodgerBlue ,RoyalBlue);
+}
+
+footer{
+    background-color:black;
+    text-align: center;
+    margin:0;
+    padding:0;
+    color:white;
+}
+
+h2,h3,h4 {    
+    color:black;
+    text-align: center;
+}
+p{
+    font-size:20px;
+    text-align: center;
+}
+img {
+    display: block;
+    margin:auto;
+    width:85%;
+}
+a{
+    color:white;
+}
+h4>a{
+    color:white;
+
+}
+a:link {
+    text-decoration: none;
+    color:white;
+}
+li{
+    font-size:20px;
+}
+
+.buton,.photoDescription,.buton-Gallery {
+    color:white;
+    background-color:black;;
+    border-style:solid;
+    border-color: black;
+    border-radius:10px;
+    border-width: 1px;
+    text-align: center;
+   
+}  
+.buton{
+ 
+    width:100%;
+}
+.buton-Gallery{
+    padding: 5px 2%;
+    width:40%;
+    position:relative;
+    left:30%;
+}
+.buton:hover
+{
+background-color:indigo;
+}
+
+table{
+    width:100%;
+}
+td{
+    width:33%;
+    border-style:solid;
+    border-radius:10px;
+    border-color: black;
+    border-width: 0.5px;
+}
+th
+{
+    width:33%;
+    border-style:solid;
+    border-radius:10px;
+    border-color: black;
+    border-width: 0.5px;
+}
+
+#Carusel
+{
+    top: 0px;
+    justify-content:flex-start;
+    margin:0px 25px 30px;
+
+}
+.carousel-item img {
+    width:85%; 
+    margin:auto;
+}
+.carousel-caption
+{
+    text-size-adjust:100%;
+}
+.carousel-item>div>h2,.carousel-item>div>h3,.carousel-item>div>h4 {
+
+    text-align: center;
+    color: white;
+}
+.chenar-text,.chenar{
+    border-style:solid;
+    border-radius:10px;
+    border-color: black;
+    border-width: 0.5px;
+
+}
+
+#Gallery,#About_Author{
+    padding-top: 15px;
+}
+#Gallery>section>h3{
+    padding-top: 15px;
+}
+#Photo-Author{
+    width:100%;
+    display:block;
+    margin:auto;
+    padding:0;
+}
+#Author-Description{
+    padding:15px;
+}
+#Author-Description>p{
+    text-align:center ;
+    padding:10px;
+    
+}
+iframe{
+    position: relative;
+    width:75%;
+    height:30em;
+    border:0;
+}
+
